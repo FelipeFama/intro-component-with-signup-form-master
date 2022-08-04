@@ -19,7 +19,7 @@
 }
 
 body {
-  background-image: url("/images/bg-intro-desktop.png");
+  background-image: url("./images/bg-intro-desktop.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--red);
@@ -159,7 +159,7 @@ input:focus-visible {
   top: 25%;
   position: absolute;
   align-items: right;
-  background-image: url(/images/icon-error.svg);
+  background-image: url(./images/icon-error.svg);
   background-repeat: no-repeat;
   height: 2.5rem;
   width: 2.5rem;
@@ -199,7 +199,7 @@ input:focus-visible {
 
 @media screen and (max-width: 801px) {
   body {
-    background-image: url(/images/bg-intro-mobile.png);
+    background-image: url(./images/bg-intro-mobile.png);
   }
   .main-container {
     grid-template-columns: 1fr;
