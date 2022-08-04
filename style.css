@@ -133,7 +133,7 @@ input:focus-visible {
 .firstname-label, 
 .lastname-label,
 .email-label,
-.pass-label {
+.password-label {
   text-align: right;
   font-size: 0.7rem;
   font-weight: 500;
@@ -153,7 +153,7 @@ input:focus-visible {
 .first-name-error, 
 .last-name-error,
 .user-email-error,
-.user-pass-error {
+.user-password-error {
   display: none;
   right: 3%;
   top: 25%;
