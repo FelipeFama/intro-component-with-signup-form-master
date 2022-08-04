@@ -130,7 +130,7 @@ input:focus-visible {
 }
 
 /*Labels*/
-.name-label, 
+.firstname-label, 
 .lastname-label,
 .email-label,
 .pass-label {
@@ -139,6 +139,30 @@ input:focus-visible {
   font-weight: 500;
   color: var(--red);
   font-style: italic;
+}
+
+.success-msg {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--green);
+  font-style: italic;
+}
+
+/*Error Icon*/
+.first-name-error, 
+.last-name-error,
+.user-email-error,
+.user-pass-error {
+  display: none;
+  right: 3%;
+  top: 25%;
+  position: absolute;
+  align-items: right;
+  background-image: url(/images/icon-error.svg);
+  background-repeat: no-repeat;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .submit-info {
@@ -160,14 +184,14 @@ input:focus-visible {
   background-color: var(--green-hover);
 }
 
-.tas {
+.submit-term {
   font-size: 0.68rem;
   font-weight: 600;
   color: var(--grayish-blue);
   text-align: center;
 }
 
-.tas a {
+.submit-term a {
   text-decoration: none;
   color: var(--red);
   font-weight: 600;

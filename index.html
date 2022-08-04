@@ -7,6 +7,7 @@
   <title>Frontend Mentor | Intro component with sign up form</title>
   <link rel="stylesheet" href="/style.css" />
 </head>
+
 <body>
  <main class="main-container">
    <section class="info-section">
@@ -21,11 +22,11 @@
        <span> $20/mo. thereafter</span>
      </button>
      <form class="main-form">
-       <!--Username-->
+       <!--Firstname-->
        <div class="input-field">
         <input class="first-name" id="first-name" type="text" placeholder="First Name" />
         <div class="first-name-error"></div>
-        <label for="first-name" class="name-label"></label>
+        <label for="first-name" class="firstname-label"></label>
        </div>
        <!--Lastname-->
        <div class="input-field">
@@ -41,20 +42,21 @@
        </div>
        <!--Password-->
        <div class="input-field">
-        <input class="user-pass" type="password" placeholder="Password" />
-        <div class="user-pass-error"></div>
-        <label for="user-pass" class="pass-label"></label>
+        <input class="user-password" type="password" placeholder="Password" />
+        <div class="user-password-error"></div>
+        <label for="user-password" class="password-label"></label>
        </div>
        <div class="input-field">
         <label for="submit-info" class="success-msg"></label>
         <button class="submit-info" id="submit-info" type="submit">Claim your free trial </button>
        </div>
-     <label class="tas" for="submit-info" > 
+     <label class="submit-term" for="submit-info"> 
        By clicking the button, you are agreeing to our <a href="">Terms and Services</a>
      </label>
    </form>
  </section>
 </main>
+
 <script src="/app.js"></script>
 </body>
 </html>
