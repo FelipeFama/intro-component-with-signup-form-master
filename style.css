@@ -196,3 +196,20 @@ input:focus-visible {
   color: var(--red);
   font-weight: 600;
 }
+
+@media screen and (max-width: 801px) {
+  body {
+    background-image: url(/images/bg-intro-mobile.png);
+  }
+  .main-container {
+    grid-template-columns: 1fr;
+    margin-bottom: 5rem;
+    max-width: 600px;
+  }
+  .info-section {
+    text-align: center;
+  }
+  .info-section h1 {
+    font-size: 2rem;
+  }
+}
