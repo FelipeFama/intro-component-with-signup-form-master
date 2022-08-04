@@ -2,7 +2,7 @@
 
  Intro component with signup form master challenge solution in frontendmentor.io
  
-![form-front-end-mentor](https://user-images.githubusercontent.com/91050670/182834086-0c80caa5-e86d-43f0-b6b2-245a1501cbe2.png)
+![front-end-mentor-intro-form](https://user-images.githubusercontent.com/91050670/182857324-2bdc0164-162c-4c2c-91dd-0fed94d4c83f.png)
 
 ## Technologies used
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
